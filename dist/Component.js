@@ -1,2 +1,0 @@
-"use strict";sap.ui.define(["sap/ui/core/UIComponent","./model/models"],function(e,t){"use strict";function o(e){return e&&e.__esModule&&typeof e.default!=="undefined"?e.default:e}const n=o(t);const i=e.extend("sap.ui.core.tutorial.odatav4.Component",{init:function t(){e.prototype.init.call(this);this.setModel(n.createDeviceModel(),"device")}});return i});
-//# sourceMappingURL=Component.js.map

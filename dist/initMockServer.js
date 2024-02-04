@@ -1,2 +1,0 @@
-sap.ui.define(["sap/ui/core/tutorial/odatav4/localService/mockserver","sap/m/MessageBox"],function(e,i){"use strict";e.init().catch(function(e){i.error(e.message)}).finally(function(){sap.ui.require(["sap/ui/core/ComponentSupport"])})});
-//# sourceMappingURL=initMockServer.js.map
