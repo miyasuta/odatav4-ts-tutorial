@@ -1,0 +1,1 @@
+{"version":3,"file":"initMockServer.js","names":["sap","ui","define","mockserver","MessageBox","init","catch","oError","error","message","finally","require"],"sources":["initMockServer-dbg.js"],"mappings":"AAAAA,IAAIC,GAAGC,OAAO,CACb,uDACA,oBACE,SAAUC,EAAYC,GACxB,aAGAD,EAAWE,OAAOC,MAAM,SAAUC,GACjCH,EAAWI,MAAMD,EAAOE,QACzB,GAAGC,QAAQ,WAEVV,IAAIC,GAAGU,QAAQ,CAAC,gCACjB,EACD"}
