@@ -5,7 +5,8 @@
   "author": "SAP SE",
   "description": "UI5 Demo App - ODataV4 Tutorial",
   "scripts": {
-    "start": "ui5 serve --open 'index.html'"
+    "start": "ui5 serve --open 'index.html'",
+    "build": "npx ui5 build --clean-dest"
   },
   "devDependencies": {
     "@openui5/types": "^1.120.6",

@@ -1,2 +1,2 @@
-sap.ui.define(["sap/ui/core/mvc/Controller","sap/ui/model/json/JSONModel"],function(e,o){"use strict";return e.extend("sap.ui.core.tutorial.odatav4.controller.App",{onInit:function(){var e={busy:false},t=new o(e);this.getView().setModel(t,"appView")}})});
+"use strict";sap.ui.define(["sap/ui/core/mvc/Controller","sap/ui/model/json/JSONModel"],function(e,t){"use strict";const o=e.extend("sap.ui.core.tutorial.odatav4.App",{onInit:function e(){const o={busy:false},s=new t(o);this.getView()?.setModel(s,"appView")}});return o});
 //# sourceMappingURL=App.controller.js.map

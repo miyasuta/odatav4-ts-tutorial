@@ -4,7 +4,7 @@ sap.ui.require.preload({
 "use strict";sap.ui.define(["sap/ui/core/UIComponent","./model/models"],function(e,t){"use strict";function o(e){return e&&e.__esModule&&typeof e.default!=="undefined"?e.default:e}const n=o(t);const i=e.extend("sap.ui.core.tutorial.odatav4.Component",{init:function t(){e.prototype.init.call(this);this.setModel(n.createDeviceModel(),"device")}});return i});
 },
 	"sap/ui/core/tutorial/odatav4/controller/App.controller.js":function(){
-sap.ui.define(["sap/ui/core/mvc/Controller","sap/ui/model/json/JSONModel"],function(e,o){"use strict";return e.extend("sap.ui.core.tutorial.odatav4.controller.App",{onInit:function(){var e={busy:false},t=new o(e);this.getView().setModel(t,"appView")}})});
+"use strict";sap.ui.define(["sap/ui/core/mvc/Controller","sap/ui/model/json/JSONModel"],function(e,t){"use strict";const o=e.extend("sap.ui.core.tutorial.odatav4.App",{onInit:function e(){const o={busy:false},s=new t(o);this.getView()?.setModel(s,"appView")}});return o});
 },
 	"sap/ui/core/tutorial/odatav4/i18n/i18n.properties":'# App Descriptor\n#XTIT: Application name\nappTitle=OData V4 - Step 1: The Initial App\n\n#YDES: Application description\nappDescription=OData V4 Tutorial\n\n#XTIT: Page Title\npeoplePageTitle=My Users\n\n# Table Area\n#XFLD: Label for User Name\nuserNameLabelText=User Name\n\n#XFLD: Label for First Name\nfirstNameLabelText=First Name\n\n#XFLD: Label for Last Name\nlastNameLabelText=Last Name\n\n#XFLD: Label for Age\nageLabelText=Age',
 	"sap/ui/core/tutorial/odatav4/initMockServer.js":function(){

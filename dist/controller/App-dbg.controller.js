@@ -1,21 +1,20 @@
-sap.ui.define([
-	"sap/ui/core/mvc/Controller",
-	"sap/ui/model/json/JSONModel"
-], function (Controller, JSONModel) {
-	"use strict";
+"use strict";
 
-	return Controller.extend("sap.ui.core.tutorial.odatav4.controller.App", {
+sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/model/json/JSONModel"], function (Controller, JSONModel) {
+  "use strict";
 
-		/**
-		 *  Hook for initializing the controller
-		 */
-		onInit : function () {
-			var oJSONData = {
-					busy : false
-				},
-				oModel = new JSONModel(oJSONData);
-
-			this.getView().setModel(oModel, "appView");
-		}
-	});
+  /**
+   * @namespace sap.ui.core.tutorial.odatav4
+   */
+  const App = Controller.extend("sap.ui.core.tutorial.odatav4.App", {
+    onInit: function _onInit() {
+      const oJSONData = {
+          busy: false
+        },
+        oModel = new JSONModel(oJSONData);
+      this.getView()?.setModel(oModel, "appView");
+    }
+  });
+  return App;
 });
+//# sourceMappingURL=App-dbg.controller.js.map
