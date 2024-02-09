@@ -53,6 +53,7 @@
 			"compact": true,
 			"cozy": true
 		},
+		"handleValidation": true,
 		"models": {
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
@@ -70,7 +71,8 @@
 				"settings": {
 					"autoExpandSelect": true,
 					"earlyRequests": true,
-					"operationMode": "Server"
+					"operationMode": "Server",
+					"groupId": "$auto"
 				}
 			}
 		}
